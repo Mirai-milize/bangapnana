@@ -3,6 +3,9 @@ const { createClient } = require('@supabase/supabase-js');
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
 
+console.log('Supabase URL received:', supabaseUrl ? '[SET]' : '[NOT SET]');
+console.log('Supabase Anon Key received:', supabaseAnonKey ? '[SET]' : '[NOT SET]');
+
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 exports.handler = async (event, context) => {
