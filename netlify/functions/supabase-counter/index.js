@@ -16,7 +16,7 @@ exports.handler = async (event, context) => {
         .select('value')
         .single();
 
-      if (error) {
+      if (error && error.code !== 'PGRST116') { // PGRST116 means no rows found, which is fine for initial setup
         console.error('Error fetching count:', error);
         return {
           statusCode: 500,
@@ -55,7 +55,7 @@ exports.handler = async (event, context) => {
         };
       }
 
-      let newCount = (currentData ? currentData.value : 0) + 1;
+      let newCount = (currentData?.value || 0) + 1;
 
       // 카운트 업데이트 (upsert를 사용하여 행이 없으면 삽입, 있으면 업데이트)
       const { data, error: updateError } = await supabase
