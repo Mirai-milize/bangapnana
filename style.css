@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Ownglyph_corncorn-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Ownglyph_corncorn-Rg';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fe93a8;
+    margin: 0;
+    position:static;
+}
+
+.main-image {
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+    
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.button-container {
+    gap: 15px;
+}
+
+button {
+    font-family: 'Ownglyph_corncorn-Rg';
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #c71b57;
+    color: white;
+    transition: background-color 1s;
+    box-shadow: 4px 4px 4px #646464
+}
+
+button:hover {
+    background-color: #5f0323;
+}

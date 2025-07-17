@@ -1,0 +1,9 @@
+{
+  "name": "supabase-counter-function",
+  "version": "1.0.0",
+  "description": "Netlify Function to interact with Supabase for click counting",
+  "main": "index.js",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.44.4"
+  }
+}

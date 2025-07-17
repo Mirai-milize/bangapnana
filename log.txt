@@ -1,0 +1,116 @@
+11:01:50 PM: build-image version: 0dffd691e94a6b8cf21f864575742ad990e609bf (noble)
+11:01:50 PM: buildbot version: bbab7035655cdf0b5a80ab57cd28917047d7caa9
+11:01:50 PM: Fetching cached dependencies
+11:01:50 PM: Starting to download cache of 250.1MB (Last modified: 2025-07-17 13:50:02 +0000 UTC)
+11:01:51 PM: Finished downloading cache in 599ms
+11:01:51 PM: Starting to extract cache
+11:01:55 PM: Finished extracting cache in 4.182s
+11:01:55 PM: Finished fetching cache in 4.927s
+11:01:55 PM: Starting to prepare the repo for build
+11:01:55 PM: Preparing Git Reference refs/heads/main
+11:01:57 PM: Custom functions path detected. Proceeding with the specified path: 'netlify/functions'
+11:01:57 PM: Custom build command detected. Proceeding with the specified command: '# no build command'
+11:01:57 PM: Starting to install dependencies
+11:01:57 PM: Started restoring cached python cache
+11:01:58 PM: Finished restoring cached python cache
+11:01:58 PM: Started restoring cached ruby cache
+11:02:00 PM: Finished restoring cached ruby cache
+11:02:00 PM: Started restoring cached go cache
+11:02:01 PM: Finished restoring cached go cache
+11:02:01 PM: Using PHP version
+11:02:01 PM: Started restoring cached Node.js version
+11:02:02 PM: Finished restoring cached Node.js version
+11:02:03 PM: v22.17.1 is already installed.
+11:02:03 PM: Now using node v22.17.1 (npm v10.9.2)
+11:02:03 PM: Enabling Node.js Corepack
+11:02:03 PM: Started restoring cached build plugins
+11:02:03 PM: Finished restoring cached build plugins
+11:02:04 PM: Successfully installed dependencies
+11:02:04 PM: Starting build script
+11:02:04 PM: Detected 0 framework(s)
+11:02:04 PM: Section completed: initializing
+11:02:06 PM: ​
+11:02:06 PM: Netlify Build                                                 
+11:02:06 PM: ────────────────────────────────────────────────────────────────
+11:02:06 PM: ​
+11:02:06 PM: ❯ Version
+11:02:06 PM:   @netlify/build 34.2.5
+11:02:06 PM: ​
+11:02:06 PM: ❯ Flags
+11:02:06 PM:   accountId: 687760124821858c5a036ba7
+11:02:06 PM:   baseRelDir: true
+11:02:06 PM:   buildId: 6879024d5e5ec100083c6438
+11:02:06 PM:   deployId: 6879024d5e5ec100083c643a
+11:02:06 PM: ​
+11:02:06 PM: ❯ Current directory
+11:02:06 PM:   /opt/build/repo
+11:02:06 PM: ​
+11:02:06 PM: ❯ Config file
+11:02:06 PM:   /opt/build/repo/netlify.toml
+11:02:06 PM: ​
+11:02:06 PM: ❯ Context
+11:02:06 PM:   production
+11:02:06 PM: ​
+11:02:06 PM: build.command from netlify.toml                               
+11:02:06 PM: ────────────────────────────────────────────────────────────────
+11:02:06 PM: ​
+11:02:06 PM: $ # no build command
+11:02:06 PM: ​
+11:02:06 PM: (build.command completed in 7ms)
+11:02:06 PM: ​
+11:02:06 PM: Functions bundling                                            
+11:02:06 PM: ────────────────────────────────────────────────────────────────
+11:02:06 PM: ​
+11:02:06 PM: Packaging Functions from netlify/functions directory:
+11:02:06 PM:  - click-counter.js
+11:02:06 PM: ​
+11:02:06 PM: ​
+11:02:06 PM: (Functions bundling completed in 176ms)
+11:02:06 PM: ​
+11:02:06 PM: Deploy site                                                   
+11:02:06 PM: ────────────────────────────────────────────────────────────────
+11:02:06 PM: ​
+11:02:06 PM: Starting to deploy site from '/'
+11:02:06 PM: Calculating files to upload
+11:02:06 PM: 1 new file(s) to upload
+11:02:06 PM: 1 new function(s) to upload
+11:02:13 PM: Skipping form detection
+11:02:13 PM: Post processing - header rules
+11:02:13 PM: Post processing - redirect rules
+11:02:13 PM: Post processing done
+11:02:13 PM: Section completed: postprocessing
+11:02:13 PM: Starting post processing
+11:02:13 PM: Section completed: deploying
+11:02:13 PM: Site deploy was successfully initiated
+11:02:13 PM: ​
+11:02:13 PM: (Deploy site completed in 6.5s)
+11:02:13 PM: ​
+11:02:13 PM: Netlify Build Complete                                        
+11:02:13 PM: ────────────────────────────────────────────────────────────────
+11:02:13 PM: ​
+11:02:13 PM: (Netlify Build completed in 6.8s)
+11:02:13 PM: Caching artifacts
+11:02:13 PM: Started saving build plugins
+11:02:13 PM: Finished saving build plugins
+11:02:13 PM: Started saving bun cache
+11:02:13 PM: Finished saving bun cache
+11:02:13 PM: Started saving go cache
+11:02:13 PM: Finished saving go cache
+11:02:13 PM: Started saving python cache
+11:02:13 PM: Finished saving python cache
+11:02:13 PM: Started saving ruby cache
+11:02:13 PM: Finished saving ruby cache
+11:02:13 PM: Started saving emacs cask dependencies
+11:02:13 PM: Finished saving emacs cask dependencies
+11:02:13 PM: Started saving maven dependencies
+11:02:13 PM: Finished saving maven dependencies
+11:02:13 PM: Started saving boot dependencies
+11:02:13 PM: Finished saving boot dependencies
+11:02:13 PM: Started saving rust rustup cache
+11:02:13 PM: Finished saving rust rustup cache
+11:02:13 PM: Build script success
+11:02:13 PM: Section completed: building
+11:02:14 PM: Site is live ✨
+11:02:27 PM: Uploading Cache of size 250.4MB
+11:02:28 PM: Section completed: cleanup
+11:02:28 PM: Finished processing build request in 38.384s
