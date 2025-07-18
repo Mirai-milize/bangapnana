@@ -31,6 +31,27 @@ h1 {
     margin-bottom: 9px;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
 .button-container {
     gap: 15px;
 }
